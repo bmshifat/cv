@@ -1,4 +1,5 @@
-
+RewriteEngine On
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
 <IfModule mod_expires.c>
   ExpiresActive On
  # Images
