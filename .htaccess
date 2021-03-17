@@ -4,12 +4,12 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
   ExpiresActive On
 
  # Images
-  ExpiresByType image/jpeg "access plus 1 year"
-  ExpiresByType image/gif "access plus 1 year"
-  ExpiresByType image/png "access plus 1 year"
-  ExpiresByType image/webp "access plus 1 year"
-  ExpiresByType image/svg+xml "access plus 1 year"
-  ExpiresByType image/x-icon "access plus 1 year"
+  ExpiresByType img/jpeg "access plus 1 year"
+  ExpiresByType img/gif "access plus 1 year"
+  ExpiresByType img/png "access plus 1 year"
+  ExpiresByType img/webp "access plus 1 year"
+  ExpiresByType img/svg+xml "access plus 1 year"
+  ExpiresByType img/x-icon "access plus 1 year"
 
   # Video
   ExpiresByType video/webm "access plus 1 year"
@@ -31,9 +31,6 @@ RewriteRule ^([^\.]+)$ $1.html [NC,L]
   # Others
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
-</IfModule>
-# BEGIN DEFLATE COMPRESSION
-<IfModule mod_deflate.c>
 # Compress HTML, CSS, JavaScript, Text, XML and fonts
  AddOutputFilterByType DEFLATE application/javascript
  AddOutputFilterByType DEFLATE application/rss+xml
