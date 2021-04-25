@@ -5,22 +5,22 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-	<loc>https://bmshifat.vercel.app/</loc>
+	<loc>https://www.bmshifat.ml/</loc>
 	<lastmod>2021-03-28T20:35:09+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://bmshifat.vercel.app/resume.html</loc>
+	<loc>https://www.bmshifat.ml/resume.html</loc>
 	<lastmod>2021-03-28T20:35:09+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://bmshifat.vercel.app/portfolio.html</loc>
+	<loc>https://www.bmshifat.ml/portfolio.html</loc>
 	<lastmod>2021-03-28T20:35:12+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
-	<loc>https://bmshifat.vercel.app/contact.html</loc>
+	<loc>https://www.bmshifat.ml/contact.html</loc>
 	<lastmod>2021-03-28T20:35:13+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
